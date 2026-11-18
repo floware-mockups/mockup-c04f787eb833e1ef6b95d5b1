@@ -1,0 +1,204 @@
+{
+  "title": "Preparazione determine di affidamento diretto",
+  "description": "Prototipo per registrare gli affidamenti in lavorazione, verificare soglie e riferimenti normativi e preparare una bozza di determina. Le verifiche sono indicative e richiedono conferma prima dell’adozione.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Sintesi delle determine in lavorazione e delle scadenze imminenti.",
+      "metrics": [
+        {
+          "label": "Determine in lavorazione",
+          "value": "12"
+        },
+        {
+          "label": "Da verificare",
+          "value": "4"
+        },
+        {
+          "label": "Bozze pronte",
+          "value": "3"
+        },
+        {
+          "label": "Scadenze entro 7 giorni",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Stato",
+        "Oggetto",
+        "Operatore economico",
+        "Importo stimato",
+        "CIG",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "Da verificare",
+          "Servizio di manutenzione degli impianti",
+          "Vela Manutenzioni",
+          "€ 18.400",
+          "CIG-••••-4821",
+          "18/09/2025"
+        ],
+        [
+          "Bozza pronta",
+          "Fornitura di materiali per archiviazione",
+          "Nubi Forniture",
+          "€ 6.750",
+          "CIG-••••-1173",
+          "22/09/2025"
+        ],
+        [
+          "In compilazione",
+          "Servizio di supporto alla gestione documentale",
+          "Lumo Servizi",
+          "€ 32.000",
+          "CIG-••••-9056",
+          "25/09/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "determine",
+      "title": "Determine in lavorazione",
+      "description": "Elenco filtrabile delle pratiche con stato e scadenza.",
+      "metrics": [
+        {
+          "label": "Totale pratiche",
+          "value": "12"
+        },
+        {
+          "label": "In compilazione",
+          "value": "5"
+        },
+        {
+          "label": "Da verificare",
+          "value": "4"
+        },
+        {
+          "label": "Bozza pronta",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Oggetto",
+        "Importo stimato",
+        "Operatore economico",
+        "CIG",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "Servizio di manutenzione degli impianti",
+          "€ 18.400",
+          "Vela Manutenzioni",
+          "CIG-••••-4821",
+          "Da verificare",
+          "18/09/2025"
+        ],
+        [
+          "Fornitura di materiali per archiviazione",
+          "€ 6.750",
+          "Nubi Forniture",
+          "CIG-••••-1173",
+          "Bozza pronta",
+          "22/09/2025"
+        ],
+        [
+          "Servizio di supporto alla gestione documentale",
+          "€ 32.000",
+          "Lumo Servizi",
+          "CIG-••••-9056",
+          "In compilazione",
+          "25/09/2025"
+        ],
+        [
+          "Verifica periodica delle attrezzature",
+          "€ 9.200",
+          "Rivo Controlli",
+          "CIG-••••-3408",
+          "In compilazione",
+          "29/09/2025"
+        ],
+        [
+          "Fornitura di segnaletica per gli uffici",
+          "€ 4.980",
+          "Tilo Segnaletica",
+          "CIG-••••-7712",
+          "Da verificare",
+          "02/10/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-determina",
+      "title": "Nuova determina",
+      "description": "Inserisci i dati essenziali della procedura. I dati sono inventati; la verifica normativa è un supporto da validare.",
+      "metrics": [],
+      "columns": [
+        "Oggetto",
+        "Importo stimato",
+        "Operatore economico",
+        "CIG"
+      ],
+      "rows": [],
+      "form": [
+        "Oggetto",
+        "Importo stimato",
+        "Operatore economico",
+        "CIG"
+      ]
+    },
+    {
+      "id": "verifica-bozza",
+      "title": "Verifica e bozza",
+      "description": "Esamina l’esito indicativo della verifica della soglia, i riferimenti normativi suggeriti e la proposta di motivazione prima di predisporre la bozza.",
+      "metrics": [
+        {
+          "label": "Importo inserito",
+          "value": "€ 18.400"
+        },
+        {
+          "label": "Esito preliminare",
+          "value": "Da confermare"
+        },
+        {
+          "label": "Riferimenti suggeriti",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Sezione",
+        "Contenuto",
+        "Esito revisione"
+      ],
+      "rows": [
+        [
+          "Soglia affidamento diretto",
+          "Confronto preliminare dell’importo con le soglie applicabili secondo il d.lgs. 36/2023; controllare il valore stimato complessivo e le eventuali regole specifiche.",
+          "Da confermare"
+        ],
+        [
+          "Riferimento normativo",
+          "Articolo 50, comma 1, lettera pertinente alla tipologia e all’importo della procedura; verificare la versione vigente e l’applicabilità al caso concreto.",
+          "Da confermare"
+        ],
+        [
+          "Motivazione proposta",
+          "Motivare la scelta dell’operatore in relazione all’oggetto, al valore, all’esperienza pertinente e ai principi applicabili, documentando gli elementi istruttori effettivamente verificati.",
+          "Da completare"
+        ]
+      ],
+      "form": []
+    }
+  ],
+  "theme": {
+    "palette": "blu-istituzionale",
+    "fonts": "istituzionale"
+  }
+}
